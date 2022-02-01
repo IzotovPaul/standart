@@ -1,0 +1,625 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: rgb(255, 255, 255);
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  height: 2500px;
+}
+
+li {
+  list-style-type: none; /* Убираем маркеры */
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(73, 59, 150);
+}
+a:focus {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+nav {
+  display: inline;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 40px;
+  margin-left: 300px;
+}
+
+/* WebStudio */
+
+.logo {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+
+/* Menu Nav */
+
+.navig {
+  position: absolute;
+  width: 294px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+}
+
+/* E-mail */
+
+.adres-right {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+}
+
+/* Tel 
+
+
+position: absolute;
+width: 122px;
+height: 16px;
+left: 1263px;
+top: 32px; 
+*/
+
+.back {
+  background-color: rgb(59, 68, 92);
+  color: white;
+  width: 100%;
+  height: 300px;
+  margin-top: 110px;
+  padding-top: 100px;
+}
+
+.btn {
+  height: 70px;
+  width: 200px;
+  border-radius: 30px;
+  color: rgb(121, 7, 7);
+  background: rgb(255, 255, 255);
+  margin-left: 40%;
+  border-color: rgb(121, 7, 7);
+  border-width: 5px;
+  font-size: 20px;
+}
+
+.osobennosti {
+  /* Особенности */
+
+  position: absolute;
+  width: 1170px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+}
+
+.vnimanie {
+  /* Внимание к деталям */
+
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 100px;
+  top: -200px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.ideynie {
+  /* Идейные соображения, а также начало повседневной работы по формированию позиции. */
+
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 100px;
+  top: -170px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.punktualnost {
+  /* Пунктуальность */
+
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 420px;
+  top: -200px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.zadacha {
+  /* Задача организации, в особенности же рамки и место обучения кадров влечет за собой. */
+
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 420px;
+  top: -170px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.planirovanie {
+  /* Планирование */
+
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 760px;
+  top: -200px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.ravnim {
+  /* Равным образом консультация с широким активом в значительной степени обуславливает. */
+
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 760px;
+  top: -170px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/* 
+    .sovremennie {
+    
+
+      position: absolute;
+      width: 270px;
+      height: 16px;
+      left: 800px;
+      top: -200px;
+
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+
+      color: #212121;
+    } 
+
+
+
+    
+    .znachimost {
+  
+
+      position: absolute; 
+      width: 270px;
+      height: 75px;
+      left: 800px;
+      top: -100px;
+
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+    
+
+      letter-spacing: 0.03em;
+
+      color: #757575;
+    }
+
+*/
+
+.chem-zanimayemsa {
+  /* Чем мы занимаемся */
+
+  position: absolute;
+  width: 1170px;
+  height: 386px;
+  left: 215px;
+  top: 969px;
+}
+
+.chem-mi {
+  /* Чем мы занимаемся */
+
+  position: absolute;
+  width: 376px;
+  height: 42px;
+  left: 550px;
+  top: 800px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.img-1 {
+  /* img */
+
+  position: absolute;
+
+  height: 300px;
+  left: 200px;
+  top: 961px;
+}
+
+.img-2 {
+  /* img */
+
+  position: absolute;
+
+  height: 300px;
+  left: 600px;
+  top: 961px;
+}
+
+.img-3 {
+  /* img */
+
+  position: absolute;
+
+  height: 300px;
+  left: 1000px;
+  top: 961px;
+}
+
+.back-2 {
+  /* Section bg */
+
+  position: absolute;
+  width: 1600px;
+  height: 650px;
+  left: 0px;
+  top: 1400px;
+
+  background: #f5f4fa;
+}
+
+.nasha-k {
+  /* Наша команда */
+
+  position: absolute;
+  width: 264px;
+  height: 42px;
+  left: 668px;
+  top: 50px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.card-1 {
+  /* card bg */
+
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 220px;
+
+  background: #ffffff;
+  /* material shadow v1 */
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.card-2 {
+  /* card bg */
+
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 515px;
+  top: 220px;
+
+  background: #ffffff;
+  /* material shadow v1 */
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.card-3 {
+  /* card bg */
+
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 815px;
+  top: 220px;
+
+  background: #ffffff;
+  /* material shadow v1 */
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.card-4 {
+  /* card bg */
+
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 1115px;
+  top: 220px;
+
+  background: #ffffff;
+  /* material shadow v1 */
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.igor {
+  /* Игорь Демьяненко */
+
+  position: absolute;
+  width: 151px;
+  height: 19px;
+  left: 50px;
+  top: px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.product-d {
+  /* Product Designer */
+
+  position: absolute;
+  width: 230px;
+  height: 19px;
+  left: 15px;
+  top: 300px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.olga {
+  /* Ольга Демьяченко */
+
+  position: absolute;
+  width: 151px;
+  height: 19px;
+  left: 60px;
+  top: px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.frontend-d {
+  /* Frontend Developer */
+
+  position: absolute;
+  width: 230px;
+  height: 19px;
+  left: 20px;
+  top: 300px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.nikolay {
+  /* Николай Тарасов */
+
+  position: absolute;
+  width: 151px;
+  height: 19px;
+  left: 60px;
+  top: px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.marketing-d {
+  /* Marketing */
+
+  position: absolute;
+  width: 230px;
+  height: 19px;
+  left: 20px;
+  top: 300px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.miha {
+  /* Николай Тарасов */
+
+  position: absolute;
+  width: 151px;
+  height: 19px;
+  left: 60px;
+  top: px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.ui-d {
+  /* UI Designer */
+
+  position: absolute;
+  width: 230px;
+  height: 19px;
+  left: 20px;
+  top: 300px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
