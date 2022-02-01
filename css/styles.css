@@ -6,7 +6,7 @@ body {
   font-size: 16px;
   font-weight: normal;
   font-family: "Roboto", sans-serif;
-  height: 2500px;
+  height: 2200px;
 }
 
 li {
@@ -14,8 +14,9 @@ li {
 }
 
 a {
-  color: blue;
+  color: rgb(134, 134, 146);
   text-decoration: none;
+  font-size: 20px;
 }
 
 a:hover {
@@ -48,7 +49,7 @@ h1 {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
-  font-size: 26px;
+  font-size: 36px;
   line-height: 31px;
   /* identical to box height */
 
@@ -65,6 +66,7 @@ h1 {
   height: 16px;
   left: 453px;
   top: 32px;
+  display: inline;
 }
 
 /* E-mail */
@@ -90,7 +92,7 @@ top: 32px;
 .back {
   background-color: rgb(59, 68, 92);
   color: white;
-  width: 100%;
+  width: 1600px;
   height: 300px;
   margin-top: 110px;
   padding-top: 100px;
@@ -100,10 +102,10 @@ top: 32px;
   height: 70px;
   width: 200px;
   border-radius: 30px;
-  color: rgb(121, 7, 7);
+  color: rgb(0, 132, 255);
   background: rgb(255, 255, 255);
   margin-left: 40%;
-  border-color: rgb(121, 7, 7);
+  border-color: rgb(0, 119, 255);
   border-width: 5px;
   font-size: 20px;
 }
@@ -622,4 +624,28 @@ top: 32px;
   letter-spacing: 0.03em;
 
   color: #757575;
+}
+
+.footer {
+  /* Подвал */
+
+  position: absolute;
+  width: 1600px;
+  height: 220px;
+  left: 0px;
+  top: 2050px;
+
+  /* Footer bg */
+
+  background: #2f303a;
+}
+
+.adres {
+  /* Address */
+
+  position: absolute;
+  width: 231px;
+  height: 81px;
+  left: 180px;
+  top: 50px;
 }
